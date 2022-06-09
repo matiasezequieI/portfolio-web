@@ -5,39 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio Web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/5bc94ec41b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <ul>
-      <li><a href="#fotoPerfil">Sobre mim</a></li>
-      <li><a href="#principaisHabilidades">Principais habilidades</a></li>
-      <li><a href="#atividadesFavoritas">O que mais gosto de fazer</a></li>
-    </ul>
-    <h2>Matías Ezequiel Mendoza</h2>
-    <img
-      id="fotoPerfil"
-      src="profile.jpg"
-      alt="Minha foto de perfil"
-      width="250px"
-    />
-    <p>
-      <strong
-        >Estudante de desenvolvimento Web na
-        <a href="https://www.betrybe.com/" target="_blank">Trybe</a></strong
-      >, tenho 24 anos, sou argentino, mas moro no Brasil desde meus 8 anos!
-    </p>
-    <p>Atualmente moro em Jaraguá do Sul - SC</p>
-    <h3>Habilidades que mais me orgulho</h3>
-    <ul id="principaisHabilidades">
-      <li>Empatia</li>
-      <li>Trabalho em equipe</li>
-      <li>Flexibilidade</li>
-    </ul>
-    <h4>O que mais gosto de fazer</h4>
-    <ul id="atividadesFavoritas">
-      <li>Jogar com os amigos</li>
-      <li>Passar tempo com a família</li>
-      <li>Assistir animes, doramas, séries, filmes...</li>
-      <li>Ouvir música</li>
-    </ul>
+    <div class="container">
+      <header>
+        <span>DEV</span>
+        <ul>
+          <i class="fa-solid fa-house"></i>
+          <li>Portfólio</li>
+          <i class="fa-regular fa-note-sticky"></i>
+          <li>Resumo</li>
+        </ul>
+      </header>
+      <article>
+        <section class="sobre_mim">
+          <h1>Sobre mim</h1>
+          <p>Sou estudante de Desenvolvimento Web Full Stack na Trybe.</p>
+          <p>Apaixonado por Tecnologia e entusiasta de Linux!</p>
+          <p>
+            No meu tempo livre gosto de jogar jogos online com amigos, ouvir
+            música e assistir séries e filmes.
+          </p>
+        </section>
+        <section>
+          <h1>Habilidades</h1>
+          <p>
+            Segue abaixo Tecnologias que estou estudando no momento e que
+            pretendo me aprofundar ao decorrer do meu curso na Trybe
+          </p>
+          <div class="habilidades-container">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3"></i>
+            <i class="fa-brands fa-git"></i>
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node"></i>
+            <i class="fa-solid fa-database"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-linux"></i>
+          </div>
+        </section>
+        <section>
+          <h1>Meus Projetos</h1>
+          <div class="projetos_container">
+            <a href="#">
+              <img
+                class="foto_projeto"
+                src="lyric_finder.png"
+                alt="Lyric finder app"
+              />
+            </a>
+            <p>
+              Projeto criado utilizando React e Hooks para encontrar a letra da
+              música que desejar. A pesquisa é feita utilizando a API do
+              Vagalume. Você pode conferir o projeto em:
+              <a href="#"></a>
+            </p>
+            <a href="#">
+              <img
+                class="foto_projeto"
+                src="movie_app.png"
+                alt="Movie search app"
+              />
+            </a>
+            <p>
+              Projeto criado utilizando React e Hooks como UseEffect para
+              consultar na API do "themoviedb". É possível filtrar os resultados
+              baseado no que o usuário digitar. Você pode conferir o projeto em:
+              <a href="#"></a>
+            </p>
+            <a href="#">
+              <img
+                class="foto_projeto"
+                src="recipe_app.png"
+                alt="Recipe search app"
+              />
+            </a>
+            <p>
+              Projeto criado utilizando React e Hooks como UseEffect para
+              consultar na API do "themealdb". É possível pesquisar na API e
+              filtrar os resultados baseado na pesquisa que o usuário digitar.
+              Você conferir o projeto em: <a href="#"></a>
+            </p>
+          </div>
+        </section>
+      </article>
+      <aside>
+        <img class="foto_perfil" src="profile.jpg" alt="My profile picture" />
+        <h1>Matías Ezequiel Mendoza</h1>
+        <p>
+          Full Stack Developer Student at
+          <a href="https://www.betrybe.com/"><span>Trybe 🚀</span></a>
+        </p>
+        <div class="redes_sociais">
+          <a href="https://br.linkedin.com/" target="_blank"
+            ><i class="fa-brands fa-linkedin-in"
+              ><span>Me siga no Linkedin</span></i
+            ></a
+          >
+          <a href="https://github.com/matiasezequieI" target="_blank"
+            ><i class="fa-brands fa-github"
+              ><span>Me siga no Github</span></i
+            ></a
+          >
+          <i class="fa-solid fa-envelope"
+            ><span>matiasezequiel.qwerty@gmail.com</span></i
+          >
+        </div>
+      </aside>
+      <footer>
+        <p>© 2022 | Feito com ❤️</p>
+      </footer>
+    </div>
   </body>
 </html>

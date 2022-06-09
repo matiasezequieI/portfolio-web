@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #191633;
+  color: white;
+  scroll-behavior: smooth;
+  font-family: Nunito, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: #26224c;
+  margin: 0 200px;
+  height: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  margin: 0 50px;
+  justify-content: flex-end;
+  margin: 0 50px;
+}
+
+header span {
+  margin-right: auto;
+  display: inline-block;
+  padding: 10px 10px 0 0;
+}
+
+aside {
+  width: 300px;
+  margin-top: -890px;
+  margin-right: 40px;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px 0 0;
+}
+
+.foto_perfil {
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 10px;
+  margin: 30px auto 10px auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: #8072ff;
+  font-size: 20px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+aside p {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+aside span {
+  color: white;
+}
+
+.redes_sociais i {
+  display: block;
+  padding: 20px 0 5px 10px;
+  font-size: 12px;
+}
+
+.redes_sociais span {
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+.sobre_mim p {
+  text-align: center;
+}
+
+section p {
+  text-align: center;
+}
+
+article {
+  margin-left: 380px;
+  margin-top: 20px;
+}
+
+article h1 {
+  padding-top: 40px;
+}
+
+article p {
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.habilidades-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.habilidades-container i {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #191641;
+  padding: 10px 0 10px 0;
+  color: white;
+  text-align: center;
+}
+
+.projetos_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projetos_container p {
+  white-space: pre;
+  text-align: start;
+}
+
+.foto_projeto {
+  width: 300px;
+  padding-bottom: 20px;
+}
